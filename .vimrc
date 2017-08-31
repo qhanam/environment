@@ -1,3 +1,6 @@
+" Allow copying between tmux sessions
+set clipboard=unnamed
+
 " Disable blinking
 set guicursor+=a:blinkon0
 
@@ -28,9 +31,6 @@ au BufRead,BufNewFile *.py set fileformat=unix
 
 " Show the ruler
 set ruler
-
-" Allow copying between tmux sessions
-set clipboard=unnamed
 
 " LaTeX Syntax ***************************
 au BufRead,BufNewFile *.tex set textwidth=80
